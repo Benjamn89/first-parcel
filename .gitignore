@@ -1,6 +1,6 @@
 .cache
 node_modules
-media
+/media
 scripts
 styles
 /index.html
