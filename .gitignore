@@ -1,0 +1,8 @@
+.cache
+node_modules
+media
+scripts
+styles
+index.html
+package.json
+package-lock.json
