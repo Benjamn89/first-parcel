@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Icons/music-white</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/music" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons8-playlist" transform="translate(3.000000, 3.000000)" fill="#FFFFFF">
+            <path d="M14,0 L14,11.125 C13.410156,10.976563 12.730469,10.949219 12,11.125 C9.789063,11.652344 8,13.609375 8,15.46875 C8,17.328125 9.789063,18.402344 12,17.875 C14.148438,17.359375 15.875,15.5 15.96875,13.6875 L16,13.6875 L16,4 L20,4 L20,0 L14,0 Z M0,1 L0,3 L13,3 L13,1 L0,1 Z M0,6 L0,8 L13,8 L13,6 L0,6 Z M0,11 L0,13 L7.75,13 C8.242188,12.21875 8.972656,11.527344 9.8125,11 L0,11 Z M0,16 L0,18 L8.125,18 C7.539063,17.472656 7.179688,16.785156 7.0625,16 L0,16 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

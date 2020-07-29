@@ -1,0 +1,93 @@
+.three-footer {
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  h1,
+  h2 {
+    font-family: Caladea, sans-serif;
+    span {
+      font-family: Caladea, sans-serif;
+      color: #f77e46;
+    }
+  }
+}
+.three-footer-left {
+  width: 40%;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 10vw 0 7vw;
+  opacity: 0;
+  transform: translateX(-200px);
+  & > p:nth-child(1) {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  & > h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  & > p:nth-child(3) {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  & > div {
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    height: 90px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+    padding: 0 10px;
+    transition: 0.3s ease;
+    * {
+      pointer-events: none;
+    }
+    &:hover {
+      box-shadow: 0 0 0 1px #e3e3e3;
+      transform: translate(0px, 3px);
+    }
+    & > h2 {
+      font-size: 16px;
+      font-family: Lato, sans-serif;
+      text-align: center;
+    }
+    & > div {
+      height: 80%;
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      & > img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: left;
+      }
+    }
+  }
+}
+.three-footer-play {
+  position: absolute;
+  background-image: url("../../media/header/plau-white.svg");
+  background-size: cover;
+  z-index: 1;
+  height: 45%;
+  width: 45%;
+  border-radius: 50%;
+}

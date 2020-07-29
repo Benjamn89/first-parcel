@@ -1,0 +1,89 @@
+@media only screen and (max-width: 860px) {
+  .header-arrow-left,
+  .header-arrow-right {
+    height: 44px;
+    width: 44px;
+  }
+  .head-ins-con-1 & > div {
+    max-width: 70vw;
+    & > h1 {
+      font-size: 40px;
+    }
+  }
+  .head-ins-con-2 {
+    & > h1 {
+      font-size: 30px;
+    }
+  }
+  .head-ins-con-3 {
+    & > h1 {
+      font-size: 35px;
+      text-align: center;
+    }
+    & > div:nth-child(4) {
+      width: 70vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #header {
+    min-height: 60vh;
+  }
+  .header-arrow-left,
+  .header-arrow-right {
+    display: none;
+  }
+  .header-inside-content {
+    padding: 0 2vw 0 2vw !important;
+  }
+  .head-ins-con-1 & > div {
+    max-width: 100vw;
+    & > h1 {
+      font-size: 35px;
+      padding-right: 8vw;
+    }
+    & > div:nth-child(3) {
+      flex-direction: column;
+      & > input {
+        width: 92vw;
+        border-radius: 6px;
+        margin-bottom: 1vh;
+      }
+      & > a {
+        border-radius: 6px;
+        width: 92vw;
+        text-align: center;
+      }
+    }
+    & > div:nth-child(4) {
+      width: 92vw;
+    }
+  }
+  .head-ins-con-2 {
+    padding: 0 !important;
+    & > h1 {
+      width: 90vw;
+    }
+  }
+  .head-ins-con-3 {
+    & > div:nth-child(4) {
+      width: 95vw;
+    }
+    & > div:nth-child(5) {
+      flex-direction: column;
+      & > a {
+        width: 50vw;
+        text-align: center;
+      }
+      & > a:nth-child(1) {
+        margin-bottom: 1vh;
+      }
+    }
+  }
+  .header-dots {
+    & > div {
+      margin-right: 7px;
+    }
+  }
+}

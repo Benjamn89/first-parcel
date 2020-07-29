@@ -1,0 +1,21 @@
+.costumers-dots {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  & > div {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background: rgba(34, 34, 34, 0.4);
+    cursor: pointer;
+  }
+}
+.costumers-dot-active {
+  background: #fff !important;
+  pointer-events: none;
+}

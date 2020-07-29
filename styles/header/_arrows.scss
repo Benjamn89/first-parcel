@@ -1,0 +1,36 @@
+.header-arrow-left,
+.header-arrow-right {
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  &:hover .header-svg-circle {
+    stroke-width: 5;
+  }
+  & > svg {
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+  }
+}
+.header-arrow-left {
+  left: 2vw;
+  font-size: 35px;
+  opacity: 0;
+  animation: fadeLeftToCenter 1s forwards 1.5s;
+}
+.header-arrow-right {
+  right: 2vw;
+  transform: translateY(-50%) rotate(180deg);
+  opacity: 0;
+  animation: fadeRightToCenterR 1s forwards 1.5s;
+}
+
+.header-svg-circle {
+  transition: 0.5s;
+  stroke-width: 0;
+}

@@ -1,0 +1,119 @@
+@import "arrows";
+@import "dots";
+@import "slides";
+@import "queries";
+
+#costumers {
+  width: 100vw;
+  min-height: 60vh;
+  height: auto;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightcyan;
+}
+.inside-costumers {
+  position: relative;
+  z-index: 3;
+  width: 80%;
+  max-width: 670px;
+  min-height: 370px;
+  height: auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px -10px rgba(0, 0, 0, 0.16);
+  & > div:nth-child(1) {
+    overflow: hidden;
+    min-height: 370px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+    & > div:nth-child(1),
+    & > div:nth-child(2),
+    & > div:nth-child(3) {
+      width: 100%;
+      min-height: 370px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 50px;
+      text-align: center;
+      background: #fff;
+      border-radius: 20px;
+      position: absolute;
+      & > h3 {
+        font-family: Caladea, sans-serif;
+        font-size: 21px;
+        line-height: 1.4;
+        padding-bottom: 25px;
+        & > span {
+          font-family: Caladea, sans-serif;
+          color: #f77e46;
+          background: rgba(247, 126, 70, 0.089);
+        }
+      }
+      & > p {
+        font-weight: bold;
+        font-size: 15px;
+        border-top: 1px solid #e3e3e3;
+        padding-top: 10px;
+        width: 200px;
+        margin-bottom: 8px;
+      }
+      & > span {
+        font-size: 13px;
+        color: #666;
+      }
+    }
+  }
+}
+.costumers-img-div {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  & > img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.costumers-img {
+  position: absolute;
+  left: -2%;
+  top: -2%;
+  right: -2%;
+  bottom: -2%;
+  z-index: 0;
+  display: block;
+  width: 104%;
+  height: 104%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  will-change: transform;
+  transform-style: preserve-3d;
+  transition: object-position 4s ease;
+}
+.cos-obj-top {
+  object-position: top;
+}
+.cos-obj-center {
+  object-position: center;
+}
+.cos-obj-bottom {
+  object-position: bottom;
+}

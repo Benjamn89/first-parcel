@@ -1,0 +1,60 @@
+@import "three-center";
+@import "dynamic-content";
+@import "dynamic-content-2";
+@import "before-last";
+@import "three-footer";
+@import "three-footer-right";
+@import "animations";
+@import "queries";
+
+#three {
+  height: auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.three-top {
+  padding: 7vw 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  & > p {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 2vh;
+  }
+  & > h1 {
+    font-family: Caladea, sans-serif;
+    font-size: 35px;
+    width: 800px;
+    text-align: center;
+    & > span {
+      color: #f77e46;
+      font-family: Caladea, sans-serif;
+    }
+  }
+  & > div {
+    margin-top: 5vh;
+    & > a {
+      padding: 15px 20px;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+      &:hover {
+        background: #452c48;
+      }
+    }
+    :first-child {
+      background: #f77e46;
+      color: #fff;
+    }
+    :nth-child(2) {
+      border: solid 0.5px rgba(138, 130, 130, 0.452);
+      color: black;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

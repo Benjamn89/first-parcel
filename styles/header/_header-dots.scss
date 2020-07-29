@@ -1,0 +1,22 @@
+.header-dots {
+  position: absolute;
+  bottom: 2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  z-index: 6;
+  & > div {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.493);
+    margin-right: 0.3vw;
+    cursor: pointer;
+  }
+}
+.head-active-dot {
+  background: #fff !important;
+}

@@ -1,0 +1,21 @@
+import { navbar } from "./navbar/navbar.js";
+import { header } from "./header/header-slides.js";
+import { imagePosition } from "./header/image-position.js";
+import { openVideo } from "./header/open-video.js";
+import { activeLi } from "./three/three-center.js";
+import { playVideo } from "./three/three-footer-video.js";
+import { cosSlides } from "./costumers/slides.js";
+import { cosImagePosition } from "./costumers/img-position.js";
+import { underGrid } from "./under-grid/under-grid.js";
+import { animate } from "./animate/animate.js";
+
+header();
+navbar();
+imagePosition();
+openVideo();
+activeLi();
+playVideo();
+cosSlides();
+cosImagePosition();
+underGrid();
+animate();

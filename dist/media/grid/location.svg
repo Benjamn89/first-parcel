@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Icons/marker</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/marker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons8-marker" transform="translate(5.000000, 2.000000)" fill="#151515">
+            <path d="M7,0 C3.134,0 0,3.134 0,7 C0,12 7,20 7,20 C7,20 14,12 14,7 C14,3.134 10.866,0 7,0 Z M7,9.5 C5.619,9.5 4.5,8.381 4.5,7 C4.5,5.619 5.619,4.5 7,4.5 C8.381,4.5 9.5,5.619 9.5,7 C9.5,8.381 8.381,9.5 7,9.5 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+.three-footer-right {
+  max-height: 37vw;
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  & > img {
+    width: 95%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  & > div {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    height: 90%;
+    width: 70%;
+    background: #f5f5f5;
+    border-radius: 20px;
+    z-index: -1;
+  }
+}

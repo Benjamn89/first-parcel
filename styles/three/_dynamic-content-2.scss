@@ -1,0 +1,16 @@
+// there is style related to this element inside dynamic-content file (without the additional number)
+.inside-content-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 650px;
+  width: 98%;
+  & > div {
+    margin-bottom: 40px;
+    & > h2 {
+      font-size: 50px;
+      color: #20b49b;
+      font-family: Caladea, sans-serif;
+    }
+  }
+}

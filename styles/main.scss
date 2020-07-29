@@ -1,0 +1,43 @@
+@import "navbar/navbar";
+@import "header/00-header";
+@import "transition/transition";
+@import "three/three";
+@import "costumers/costumers";
+@import "grid/grid";
+@import "under-grid/udner-grid";
+@import "news/news";
+@import "contact/contact";
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+img {
+  user-select: none;
+}
+
+body,
+html {
+  position: relative;
+  color: #151515;
+  overflow-x: hidden;
+}
+
+// #contact,
+// #costumers,
+// .costumers-img,
+// #grid,
+// #header,
+// #news,
+// #three,
+// #transition,
+// #under-grid {
+//   overflow-x: hidden;
+// }
