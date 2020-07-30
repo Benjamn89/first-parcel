@@ -1,3 +1,54 @@
+.wrap-all-page {
+  display: none;
+}
+
+.wrap-all-page-on {
+  display: unset;
+  -webkit-animation: fadeInAllPage 0.5s ease forwards;
+  animation: fadeInAllPage 0.5s ease forwards;
+}
+
+@-webkit-keyframes fadeInAllPage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAllPage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.spinner-on-load {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.spinner-on-load-none {
+  display: none;
+}
+
+.spinner-on-load-off {
+  opacity: 0;
+}
+
 @-webkit-keyframes popUp {
   from {
     top: 0;

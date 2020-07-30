@@ -1,0 +1,30 @@
+.wrap-all-page {
+  display: none;
+}
+.wrap-all-page-on {
+  display: unset;
+  animation: fadeInAllPage 0.5s ease forwards;
+}
+
+@keyframes fadeInAllPage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.spinner-on-load {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+}
+.spinner-on-load-none {
+  display: none;
+}
+.spinner-on-load-off {
+  opacity: 0;
+}

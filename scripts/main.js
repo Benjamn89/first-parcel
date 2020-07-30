@@ -1,3 +1,4 @@
+import { animatePage } from "./animate-on-load-page/animate-on-load-page.js";
 import { navbar } from "./navbar/navbar.js";
 import { header } from "./header/header-slides.js";
 import { imagePosition } from "./header/image-position.js";
@@ -9,6 +10,7 @@ import { cosImagePosition } from "./costumers/img-position.js";
 import { underGrid } from "./under-grid/under-grid.js";
 import { animate } from "./animate/animate.js";
 
+animatePage();
 header();
 navbar();
 imagePosition();
