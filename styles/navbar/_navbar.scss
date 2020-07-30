@@ -23,6 +23,8 @@ nav {
   z-index: 5;
   background: #fff;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.11);
+  opacity: 0;
+  transition: opacity 0.5s ease;
   & > ul {
     display: flex;
     flex-direction: row;

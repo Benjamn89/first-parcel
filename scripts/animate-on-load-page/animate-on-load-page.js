@@ -8,7 +8,8 @@ export const animatePage = () => {
     setTimeout(() => {
       // Remove completly from dom after the spinner fade of
       spinner.classList.add("spinner-on-load-none");
-      // Fade in nicely the entire page
+      // Fade in nicely the entire page (with the navbar)
+      document.querySelector("nav").style.opacity = "1";
       document
         .querySelector(".wrap-all-page")
         .classList.add("wrap-all-page-on");
