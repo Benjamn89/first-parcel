@@ -18,7 +18,7 @@ const animatePage = () => {
     }, 1000);
   };
   // Set the img src (Important to set it before the event listener)
-  img.src = "../../media/header/background-1.jpg";
+  img.src = "../media/header/background-1.jpg";
 };
 animatePage();
 // NEW
