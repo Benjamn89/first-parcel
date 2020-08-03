@@ -1,8 +1,10 @@
 export const animatePage = () => {
+  // Get the img of the slide-1 element
+  const img = document.querySelector(".img-page-on-load");
   // Create short cut for the spinner element
   const spinner = document.querySelector(".spinner-on-load");
   // Set function to run after the page has loaded
-  window.onload = () => {
+  img.onload = () => {
     // Fade out nicely the spinner
     spinner.classList.add("spinner-on-load-off");
     setTimeout(() => {
@@ -15,4 +17,6 @@ export const animatePage = () => {
         .classList.add("wrap-all-page-on");
     }, 1000);
   };
+  // Set the img src (Important to set it before the event listener)
+  img.src = "../../media/header/background-1.jpg";
 };
