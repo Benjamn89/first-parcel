@@ -1,0 +1,116 @@
+.contact-svg {
+  position: absolute;
+  height: 60px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  path:nth-child(1) {
+    stroke-dasharray: 390.97px;
+    stroke-dashoffset: 390.97px;
+    animation: makeIt 14s linear infinite;
+  }
+  path:nth-child(2) {
+    stroke-dasharray: 380.2px;
+    stroke-dashoffset: 380.2px;
+    animation: makeIt2 14s linear infinite 1s;
+  }
+  path:nth-child(3) {
+    stroke-dasharray: 417.52px;
+    stroke-dashoffset: 417.52px;
+    animation: makeIt3 14s linear infinite 2s;
+  }
+  path:nth-child(4) {
+    stroke-dasharray: 278.3px;
+    stroke-dashoffset: 278.3px;
+    animation: makeIt4 14s linear infinite 3s;
+  }
+  path:nth-child(5) {
+    stroke-dasharray: 363.6px;
+    stroke-dashoffset: 363.6px;
+    animation: makeIt5 14s linear infinite 4s;
+  }
+  path:nth-child(6) {
+    stroke-dasharray: 859.2px;
+    stroke-dashoffset: 859.2px;
+    animation: makeIt6 14s linear infinite 5s;
+  }
+  path:nth-child(7) {
+    stroke-dasharray: 417.52px;
+    stroke-dashoffset: 417.52px;
+    animation: makeIt3 14s linear infinite 6s;
+  }
+}
+
+@keyframes makeIt {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 390.97px;
+  }
+}
+
+@keyframes makeIt2 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 380.2px;
+  }
+}
+@keyframes makeIt3 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 417.52px;
+  }
+}
+@keyframes makeIt4 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 278.3px;
+  }
+}
+@keyframes makeIt5 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 363.3px;
+  }
+}
+@keyframes makeIt6 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 859.2px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .contact-svg {
+    display: none;
+  }
+}

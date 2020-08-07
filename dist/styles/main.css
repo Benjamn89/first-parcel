@@ -3603,6 +3603,214 @@ nav > div > div:nth-child(3) > div {
   color: #fff;
 }
 
+.contact-svg {
+  position: absolute;
+  height: 60px;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.contact-svg path:nth-child(1) {
+  stroke-dasharray: 390.97px;
+  stroke-dashoffset: 390.97px;
+  -webkit-animation: makeIt 14s linear infinite;
+  animation: makeIt 14s linear infinite;
+}
+
+.contact-svg path:nth-child(2) {
+  stroke-dasharray: 380.2px;
+  stroke-dashoffset: 380.2px;
+  -webkit-animation: makeIt2 14s linear infinite 1s;
+  animation: makeIt2 14s linear infinite 1s;
+}
+
+.contact-svg path:nth-child(3) {
+  stroke-dasharray: 417.52px;
+  stroke-dashoffset: 417.52px;
+  -webkit-animation: makeIt3 14s linear infinite 2s;
+  animation: makeIt3 14s linear infinite 2s;
+}
+
+.contact-svg path:nth-child(4) {
+  stroke-dasharray: 278.3px;
+  stroke-dashoffset: 278.3px;
+  -webkit-animation: makeIt4 14s linear infinite 3s;
+  animation: makeIt4 14s linear infinite 3s;
+}
+
+.contact-svg path:nth-child(5) {
+  stroke-dasharray: 363.6px;
+  stroke-dashoffset: 363.6px;
+  -webkit-animation: makeIt5 14s linear infinite 4s;
+  animation: makeIt5 14s linear infinite 4s;
+}
+
+.contact-svg path:nth-child(6) {
+  stroke-dasharray: 859.2px;
+  stroke-dashoffset: 859.2px;
+  -webkit-animation: makeIt6 14s linear infinite 5s;
+  animation: makeIt6 14s linear infinite 5s;
+}
+
+.contact-svg path:nth-child(7) {
+  stroke-dasharray: 417.52px;
+  stroke-dashoffset: 417.52px;
+  -webkit-animation: makeIt3 14s linear infinite 6s;
+  animation: makeIt3 14s linear infinite 6s;
+}
+
+@-webkit-keyframes makeIt {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 390.97px;
+  }
+}
+
+@keyframes makeIt {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 390.97px;
+  }
+}
+
+@-webkit-keyframes makeIt2 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 380.2px;
+  }
+}
+
+@keyframes makeIt2 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 380.2px;
+  }
+}
+
+@-webkit-keyframes makeIt3 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 417.52px;
+  }
+}
+
+@keyframes makeIt3 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 417.52px;
+  }
+}
+
+@-webkit-keyframes makeIt4 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 278.3px;
+  }
+}
+
+@keyframes makeIt4 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 278.3px;
+  }
+}
+
+@-webkit-keyframes makeIt5 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 363.3px;
+  }
+}
+
+@keyframes makeIt5 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 363.3px;
+  }
+}
+
+@-webkit-keyframes makeIt6 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 859.2px;
+  }
+}
+
+@keyframes makeIt6 {
+  8% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  58% {
+    stroke-dashoffset: 859.2px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .contact-svg {
+    display: none;
+  }
+}
+
 #contact {
   background: #452c48;
   color: #fff;
@@ -3614,6 +3822,7 @@ nav > div > div:nth-child(3) > div {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 50px 3vw;
+  position: relative;
 }
 
 #contact h2 {
